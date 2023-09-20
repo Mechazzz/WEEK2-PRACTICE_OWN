@@ -1,31 +1,31 @@
-function justShowTheResult (result) {
- console.log (result);
+function justShowTheResult(result) {
+  console.log(result);
 }
 
-function wordCreator (x, y) {
-    let finalWord = x + y;
+function wordCreator(x, y) {
+  let finalWord = x + y;
 
-    return finalWord;
+  return finalWord;
 }
 
-justShowTheResult (wordCreator("ház", "tető"));
-justShowTheResult (wordCreator("ugró", "deszka"));
-justShowTheResult (wordCreator("malac", "persely"));
+justShowTheResult(wordCreator("ház", "tető"));
+justShowTheResult(wordCreator("ugró", "deszka"));
+justShowTheResult(wordCreator("malac", "persely"));
 
-function numberSubstraction (x, y) {
-    let substractedValue = 0;
-    substractedValue = x - y;
-    
-    return substractedValue;
+function numberSubstraction(x, y) {
+  let substractedValue = 0;
+  substractedValue = x - y;
+
+  return substractedValue;
 }
 
-justShowTheResult (numberSubstraction(10, 5));
+justShowTheResult(numberSubstraction(10, 5));
 
-function numberAddition (x, y) {
-    let addedValue = 0;
-    addedValue = x + y;
+function numberAddition(x, y) {
+  let addedValue = 0;
+  addedValue = x + y;
 
-    return addedValue;
-} 
+  return addedValue;
+}
 
-justShowTheResult (numberAddition(10, 5));
+justShowTheResult(numberAddition(10, 5));
